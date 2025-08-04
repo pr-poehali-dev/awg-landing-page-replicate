@@ -30,9 +30,9 @@ export default {
 				},
 				awg: {
 					blue: '#3B82F6',
-					darkBlue: '#1E3A8A',
-					lightBlue: '#E3F2FD',
-					gray: '#F8FAFC',
+					darkBlue: '#1F2937',
+					lightBlue: '#F8FAFC',
+					gray: '#F1F2F4',
 					darkGray: '#1F2937'
 				},
 				secondary: {

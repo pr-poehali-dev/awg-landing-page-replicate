@@ -31,7 +31,7 @@ const Index = () => {
           <p className="text-xl md:text-2xl text-gray-300 mb-8">
             next level IT
           </p>
-          <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+          <Button className="text-white px-8 py-3 text-lg" style={{backgroundColor: '#000938'}} onMouseEnter={(e) => e.target.style.backgroundColor = '#001147'} onMouseLeave={(e) => e.target.style.backgroundColor = '#000938'}>
             Связаться с нами
           </Button>
         </div>
@@ -45,8 +45,8 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="bg-gray-900/50 border-gray-800 hover:bg-gray-800/50 transition-colors">
               <CardContent className="p-8">
-                <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6">
-                  <Icon name="Brain" size={24} className="text-blue-400" />
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-6" style={{backgroundColor: '#00093820'}}>
+                  <Icon name="Brain" size={24} style={{color: '#000938'}} />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-3">Компьютерное зрение</h3>
                 <p className="text-gray-400">Анализ изображений и видео</p>
@@ -113,7 +113,7 @@ const Index = () => {
             </div>
             
             <div className="text-center">
-              <div className="text-5xl font-light text-blue-400 mb-4">+20-30%</div>
+              <div className="text-5xl font-light mb-4" style={{color: '#000938'}}>+20-30%</div>
               <p className="text-gray-400">Рост доходов</p>
             </div>
             
@@ -133,7 +133,7 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
-                <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{backgroundColor: '#000938'}}>
                   <span className="text-white text-sm">1</span>
                 </div>
                 <span className="text-white">CRM на базе</span>

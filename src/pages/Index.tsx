@@ -31,7 +31,7 @@ const Index = () => {
           <p className="text-xl md:text-2xl text-gray-300 mb-8">
             next level IT
           </p>
-          <Button className="text-white px-8 py-3 text-lg" style={{backgroundColor: '#000938'}} onMouseEnter={(e) => e.target.style.backgroundColor = '#001147'} onMouseLeave={(e) => e.target.style.backgroundColor = '#000938'}>
+          <Button className="text-white px-8 py-3 text-lg" style={{backgroundColor: '#00938c'}} onMouseEnter={(e) => e.target.style.backgroundColor = '#00a094'} onMouseLeave={(e) => e.target.style.backgroundColor = '#00938c'}>
             Связаться с нами
           </Button>
         </div>
@@ -45,8 +45,8 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="bg-gray-900/50 border-gray-800 hover:bg-gray-800/50 transition-colors">
               <CardContent className="p-8">
-                <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-6" style={{backgroundColor: '#00093820'}}>
-                  <Icon name="Brain" size={24} style={{color: '#000938'}} />
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-6" style={{backgroundColor: '#00938c20'}}>
+                  <Icon name="Brain" size={24} style={{color: '#00938c'}} />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-3">Компьютерное зрение</h3>
                 <p className="text-gray-400">Анализ изображений и видео</p>
@@ -55,8 +55,8 @@ const Index = () => {
 
             <Card className="bg-gray-900/50 border-gray-800 hover:bg-gray-800/50 transition-colors">
               <CardContent className="p-8">
-                <div className="w-12 h-12 bg-green-600/20 rounded-lg flex items-center justify-center mb-6">
-                  <Icon name="MessageSquare" size={24} className="text-green-400" />
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-6" style={{backgroundColor: '#00938c20'}}>
+                  <Icon name="MessageSquare" size={24} style={{color: '#00938c'}} />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-3">Речевые технологии</h3>
                 <p className="text-gray-400">Обработка естественного языка</p>
@@ -65,8 +65,8 @@ const Index = () => {
 
             <Card className="bg-gray-900/50 border-gray-800 hover:bg-gray-800/50 transition-colors">
               <CardContent className="p-8">
-                <div className="w-12 h-12 bg-purple-600/20 rounded-lg flex items-center justify-center mb-6">
-                  <Icon name="Zap" size={24} className="text-purple-400" />
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-6" style={{backgroundColor: '#00938c20'}}>
+                  <Icon name="Zap" size={24} style={{color: '#00938c'}} />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-3">Машинное обучение</h3>
                 <p className="text-gray-400">Предсказательная аналитика</p>
@@ -75,8 +75,8 @@ const Index = () => {
 
             <Card className="bg-gray-900/50 border-gray-800 hover:bg-gray-800/50 transition-colors">
               <CardContent className="p-8">
-                <div className="w-12 h-12 bg-orange-600/20 rounded-lg flex items-center justify-center mb-6">
-                  <Icon name="Shield" size={24} className="text-orange-400" />
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-6" style={{backgroundColor: '#00938c20'}}>
+                  <Icon name="Shield" size={24} style={{color: '#00938c'}} />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-3">Прикладная аналитика</h3>
                 <p className="text-gray-400">Бизнес-интеллект и отчетность</p>
@@ -85,8 +85,8 @@ const Index = () => {
 
             <Card className="bg-gray-900/50 border-gray-800 hover:bg-gray-800/50 transition-colors">
               <CardContent className="p-8">
-                <div className="w-12 h-12 bg-cyan-600/20 rounded-lg flex items-center justify-center mb-6">
-                  <Icon name="Database" size={24} className="text-cyan-400" />
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-6" style={{backgroundColor: '#00938c20'}}>
+                  <Icon name="Database" size={24} style={{color: '#00938c'}} />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-3">Автоматизация рутинных задач</h3>
                 <p className="text-gray-400">Оптимизация бизнес-процессов</p>
@@ -103,17 +103,17 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-5xl font-light text-red-400 mb-4">-15-25%</div>
+              <div className="text-5xl font-light mb-4" style={{color: '#00938c'}}>-15-25%</div>
               <p className="text-gray-400">Экономия ресурсов</p>
             </div>
             
             <div className="text-center">
-              <div className="text-5xl font-light text-green-400 mb-4">+40%</div>
+              <div className="text-5xl font-light mb-4" style={{color: '#00938c'}}>+40%</div>
               <p className="text-gray-400">Улучшение CX</p>
             </div>
             
             <div className="text-center">
-              <div className="text-5xl font-light mb-4" style={{color: '#000938'}}>+20-30%</div>
+              <div className="text-5xl font-light mb-4" style={{color: '#00938c'}}>+20-30%</div>
               <p className="text-gray-400">Рост доходов</p>
             </div>
             
@@ -133,28 +133,28 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
-                <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{backgroundColor: '#000938'}}>
+                <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{backgroundColor: '#00938c'}}>
                   <span className="text-white text-sm">1</span>
                 </div>
                 <span className="text-white">CRM на базе</span>
               </div>
               
               <div className="flex items-center space-x-4">
-                <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{backgroundColor: '#00938c'}}>
                   <span className="text-white text-sm">2</span>
                 </div>
                 <span className="text-white">Система контроля</span>
               </div>
               
               <div className="flex items-center space-x-4">
-                <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{backgroundColor: '#00938c'}}>
                   <span className="text-white text-sm">3</span>
                 </div>
                 <span className="text-white">Система контроля</span>
               </div>
               
               <div className="flex items-center space-x-4">
-                <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{backgroundColor: '#00938c'}}>
                   <span className="text-white text-sm">4</span>
                 </div>
                 <span className="text-white">Цифровой помощник</span>
